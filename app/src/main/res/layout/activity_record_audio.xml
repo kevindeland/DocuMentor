@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/option1"
+            android:tag="1"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="@string/audioOption1"
+            android:onClick="selectButton" />
+
+        <Button
+            android:id="@+id/option2"
+            android:tag="2"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="@string/audioOption2"
+            android:onClick="selectButton"/>
+
+        <Button
+            android:id="@+id/option3"
+            android:tag="3"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="@string/audioOption3"
+            android:onClick="selectButton"/>
+
+        <Button
+            android:id="@+id/optionOther"
+            android:tag="4"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="@string/audioOptionOther"
+            android:onClick="selectButton"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/recordAndStop"
+                android:layout_width="wrap_content"
+                android:layout_height="100px"
+                android:text="@string/recordAudio"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="clickRecordButton"/>
+
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="100px"
+                android:text="@string/playAudio"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="clickPlayButton"/>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="100px"
+                android:text="@string/saveAudio"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:onClick="clickSaveButton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

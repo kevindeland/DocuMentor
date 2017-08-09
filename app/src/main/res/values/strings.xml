@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DocuMentor</string>
+    <string name="audioOption1">Why did you decide to create this? What is your reason or goal for creating this?</string>
+    <string name="audioOption2">Describe a good moment you had when creating this.</string>
+    <string name="audioOption3">What is your next step, or something you would like to improve?</string>
+    <string name="audioOptionOther">OTHER</string>
+
+    <string name="recordAudio">RECORD AUDIO</string>
+    <string name="stopRecord">STOP RECORDING</string>
+
+    <string name="playAudio">PLAY AUDIO</string>
+    <string name="stopPlaying">STOP PLAYING</string>
+
+    <string name="saveAudio">SAVE</string>
+</resources>
